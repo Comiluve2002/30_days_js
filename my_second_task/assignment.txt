@@ -1,0 +1,11 @@
+what is variable scope in javascript?
+
+1. Scope refers to the visibility of variables. In other words, which parts of your program can see or use it. Normally, every variable has a global scope. Once defined, every part of your program can access a variable.
+
+It is very useful to be able to limit a variable's scope to a single function. In other words, the variable wil have a limited scope .
+
+
+Difference between let and var
+
+The main difference between let and var is that scope of a variable defined with let is limited to the block in which it is declared while variable declared with var has the global scope. So we can say that var is rather a keyword which defines a variable globally regardless of block scope.
+
